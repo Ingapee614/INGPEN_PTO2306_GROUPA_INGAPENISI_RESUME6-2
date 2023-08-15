@@ -1,15 +1,29 @@
 
-@keyframes AnimatedLogo {
-    0% {background-color: blue;}
-    100%{background-color: yellow;}
+
+
+
+@keyframes AnimatedLogo-image{
+    0% {border-color: blue;}
+    50%{border-color: brown;border-radius: 50px;}
+    100%{border-color: yellow;border-radius: 70px;}
+    
+    
 
 }
-#AnimatedLogo-image{
+
+.AnimatedLogo-image{
     width: 50px;
-    height: 100px;
+    height: 50px;
+    position: relative;
+    border:30px solid;
     background-color: green;
-    animation-name: AnimatedLogo;
+    animation-name: AnimatedLogo-image;
     animation-duration: 4s;
+    animation-delay:1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-direction: alternate;}
+
+
+        
+    
